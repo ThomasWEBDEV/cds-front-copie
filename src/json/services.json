@@ -1,0 +1,1771 @@
+[
+    {
+        "id": 1,
+        "nom": "Nouveau collaborateur",
+        "description": "Demande de création d'un compte informatique pour un collaborateur",
+        "helpContent": "Pour créer un nouveau compte utilisateur dans le cadre de l'arrivée d'un nouveau collaborateur et lui affecter des ressources. Ce compte informatique est affecté à une personne qui utilise son compte pour son travail quotidien.",
+        "logo": "profile.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": false,
+        "route": "nouveau-collaborateur",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RSSI",
+            "idValideur": "JCDAUVERGNE",
+            "usernameValideur": "DAUVERGNE Jean-Charles",
+            "idUserDelegation": "fjalet",
+            "usernameUserDelegation": "JALET Frédéric",
+            "debutDelegation": "2026-08-03T00:00:00.000+00:00",
+            "finDelegation": "2026-08-28T00:00:00.000+00:00"
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 266,
+        "idGlpiGroupe": 339,
+        "validationType": 1,
+        "savable": false
+    },
+    {
+        "id": 2,
+        "nom": "Dossier partagé",
+        "description": "Demande d'accès à un ou plusieurs dossiers partagés",
+        "helpContent": "Pour demander l'accès à un ou plusieurs dossiers partagés / partage",
+        "logo": "folder.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": false,
+        "route": "partage",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 3,
+        "nom": "Usb",
+        "description": "Demande d'accès aux ports USB",
+        "helpContent": "Pour demander l'ouverture / l'accès aux ports USB de votre ordinateur. Attention privilégiez l'utilisation de stations blanches",
+        "logo": "usb.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": false,
+        "route": "usb",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RSSI",
+            "idValideur": "JCDAUVERGNE",
+            "usernameValideur": "DAUVERGNE Jean-Charles",
+            "idUserDelegation": "fjalet",
+            "usernameUserDelegation": "JALET Frédéric",
+            "debutDelegation": "2026-08-03T00:00:00.000+00:00",
+            "finDelegation": "2026-08-28T00:00:00.000+00:00"
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 256,
+        "idGlpiGroupe": 1442,
+        "validationType": 1,
+        "savable": false
+    },
+    {
+        "id": 4,
+        "nom": "Materiel informatique",
+        "description": "Demande de nouveaux matériels ou remplacement",
+        "helpContent": "Si vous souhaitez renouveler ou demander du nouveau matériel, pc, clavier souris ou autre. <br/>Pour le mobilier merci de contacter les achats.",
+        "logo": "pc.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": false,
+        "route": "materiels",
+        "type": "demande",
+        "valideur": {
+            "attribute": "INFORMATIQUE",
+            "idValideur": "floisel",
+            "usernameValideur": "LOISEL Frédéric",
+            "idUserDelegation": null,
+            "usernameUserDelegation": null,
+            "debutDelegation": null,
+            "finDelegation": null
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "glpi",
+        "idGlpiCategorie": 35,
+        "idGlpiGroupe": 1442,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 5,
+        "nom": "Internet",
+        "description": "Demande d'accès site internet",
+        "helpContent": "Pour demander l'accès à un ou plusieurs sites internet que vous n'avez pas",
+        "logo": "internet.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": false,
+        "route": "internet",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RSSI",
+            "idValideur": "JCDAUVERGNE",
+            "usernameValideur": "DAUVERGNE Jean-Charles",
+            "idUserDelegation": "fjalet",
+            "usernameUserDelegation": "JALET Frédéric",
+            "debutDelegation": "2026-08-03T00:00:00.000+00:00",
+            "finDelegation": "2026-08-28T00:00:00.000+00:00"
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 407,
+        "idGlpiGroupe": 339,
+        "validationType": 1,
+        "savable": false
+    },
+    {
+        "id": 6,
+        "nom": "Accès imprimante",
+        "description": "Demande d'accès aux imprimantes",
+        "helpContent": "Pour demander l'accès à une ou plusieurs imprimantes",
+        "logo": "printer.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": true,
+        "route": "numerisation",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": {
+            "id": 34530,
+            "addDate": null,
+            "name": "Responsable POSTE DE TRAVAIL",
+            "description": "Responsable POSTE DE TRAVAIL",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Responsable poste de travail",
+                            "approversUsers": [
+                                {
+                                    "id": "rvullo",
+                                    "username": "Renaldo VULLO",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 100,
+                    "priority": 0
+                }
+            ]
+        },
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 254,
+        "idGlpiGroupe": 339,
+        "validationType": 2,
+        "savable": false
+    },
+    {
+        "id": 7,
+        "nom": "Accès VPN IPDIVA",
+        "description": "Demande pour accès logiciel Ipdiva pour le télétravail",
+        "helpContent": "Pour demander l'accès au logiciel IPDIVA pour le télétravail",
+        "logo": "ipdiva.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            },
+            {
+                "id": 17436,
+                "nom": "RH",
+                "groupAd": "CN=Referent RH,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": false,
+        "route": "ipdiva",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RSSI",
+            "idValideur": "JCDAUVERGNE",
+            "usernameValideur": "DAUVERGNE Jean-Charles",
+            "idUserDelegation": "fjalet",
+            "usernameUserDelegation": "JALET Frédéric",
+            "debutDelegation": "2026-08-03T00:00:00.000+00:00",
+            "finDelegation": "2026-08-28T00:00:00.000+00:00"
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 335,
+        "idGlpiGroupe": 1440,
+        "validationType": 1,
+        "savable": false
+    },
+    {
+        "id": 8,
+        "nom": "Logiciels",
+        "description": "Demande d'accès à un ou plusieurs logiciels",
+        "helpContent": "S'il vous manque un logiciel, une application vous pouvez ainsi en faire la demande ici",
+        "logo": "software.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": true,
+        "route": "logiciels",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 9,
+        "nom": "Gestion des droits",
+        "description": "Application gestion des droits (applications, interfaces, partages)",
+        "helpContent": "Pour donner les droits aux utilisateurs sur : des applications, des partages (dossiers) ou encore des interfaces",
+        "logo": "privacy.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": false,
+        "route": "gestion-des-droits",
+        "type": "applicatif",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 10,
+        "nom": "Gmail",
+        "description": "Création d'un compte gmail",
+        "helpContent": "Pour demander la création d'un compte GMAIL",
+        "logo": "gmail.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": true,
+        "route": "gmail",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RSSI",
+            "idValideur": "JCDAUVERGNE",
+            "usernameValideur": "DAUVERGNE Jean-Charles",
+            "idUserDelegation": "fjalet",
+            "usernameUserDelegation": "JALET Frédéric",
+            "debutDelegation": "2026-08-03T00:00:00.000+00:00",
+            "finDelegation": "2026-08-28T00:00:00.000+00:00"
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 358,
+        "idGlpiGroupe": 1442,
+        "validationType": 1,
+        "savable": false
+    },
+    {
+        "id": 11,
+        "nom": "Liste diffusion",
+        "description": "Modifier l'appartenance à une liste de diffusion",
+        "helpContent": "S'il vous manque une liste de diffusion ou que vous souhaiter en supprimer une",
+        "logo": "google.png",
+        "domaine": [],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": true,
+        "route": "google-liste",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 358,
+        "idGlpiGroupe": 1442,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 12,
+        "nom": "Compte Atelier",
+        "description": "Création d'un compte atelier",
+        "helpContent": "Pour demander la création d'un compte atelier : concerne une fonction liée à un process de fabrication dans le cadre d’un travail posté. Par exemple « parage Jambon » ou « entrée de fabrication ",
+        "logo": "account.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": false,
+        "route": "compte-atelier",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RSSI",
+            "idValideur": "JCDAUVERGNE",
+            "usernameValideur": "DAUVERGNE Jean-Charles",
+            "idUserDelegation": "fjalet",
+            "usernameUserDelegation": "JALET Frédéric",
+            "debutDelegation": "2026-08-03T00:00:00.000+00:00",
+            "finDelegation": "2026-08-28T00:00:00.000+00:00"
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 266,
+        "idGlpiGroupe": 339,
+        "validationType": 1,
+        "savable": false
+    },
+    {
+        "id": 13,
+        "nom": "Derogation DLC producim",
+        "description": "Application dérogation des DLCs ",
+        "helpContent": "",
+        "logo": "dlc.jpg",
+        "domaine": [],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": false,
+        "route": "derogation-dlc",
+        "type": "applicatif",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 14,
+        "nom": "Compte CFP",
+        "description": "Création d'un compte à forts pouvoirs",
+        "helpContent": "Le compte à forts pouvoirs est un compte NOMINATIF permettant de modifier les infrastructures Kermené en se connectant directement sur les serveurs ou sur tout autre composant (switch, FireWall, …). Ces comptes à forts pouvoir ne doivent être autorisés à se connecter qu’aux infrastructures qu’ils administrent.",
+        "logo": "account.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": false,
+        "route": "compte-cfp",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RSSI",
+            "idValideur": "JCDAUVERGNE",
+            "usernameValideur": "DAUVERGNE Jean-Charles",
+            "idUserDelegation": "fjalet",
+            "usernameUserDelegation": "JALET Frédéric",
+            "debutDelegation": "2026-08-03T00:00:00.000+00:00",
+            "finDelegation": "2026-08-28T00:00:00.000+00:00"
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 415,
+        "idGlpiGroupe": 1440,
+        "validationType": 1,
+        "savable": false
+    },
+    {
+        "id": 15,
+        "nom": "Changement",
+        "description": "Création d'un changement GLPI",
+        "helpContent": "Pour créer un changement dans GLPI. Ce service vous facilite la création",
+        "logo": "change.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": false,
+        "route": "changement",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": true
+    },
+    {
+        "id": 20,
+        "nom": "Restauration",
+        "description": "Restauration de fichiers",
+        "helpContent": "",
+        "logo": "restore.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "idGlpi": 10
+    },
+    {
+        "id": 23,
+        "nom": "Nouveau partage",
+        "description": "Création d'un nouveau DFS",
+        "helpContent": "",
+        "logo": "new_folder.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "idGlpi": 12
+    },
+    {
+        "id": 25,
+        "nom": "Application applidis",
+        "description": "Création d'une application applidis",
+        "helpContent": "",
+        "logo": "software.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "idGlpi": 17
+    },
+    {
+        "id": 200,
+        "nom": "Droits utilisateur",
+        "description": "Pour visualiser les droits d'un utilisateur (partages, applications, internet)",
+        "helpContent": "Pour visualiser les droits d'un utilisateur (partages, applications, internet)",
+        "logo": "permission.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": false,
+        "route": "droits-utilisateur",
+        "type": "applicatif",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 201,
+        "nom": "Achats divers",
+        "description": "Achats divers",
+        "helpContent": "Achats divers",
+        "logo": "achats.png",
+        "domaine": [
+            {
+                "id": 18237,
+                "nom": "BETA",
+                "groupAd": "CN=Utilisateurs BETA,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "achats-divers",
+        "type": "applicatif",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 202,
+        "nom": "Départ collaborateur",
+        "description": "Déclaration départ collaborateur",
+        "helpContent": "Départ collaborateur",
+        "logo": "sortie.png",
+        "domaine": [
+            {
+                "id": 17436,
+                "nom": "RH",
+                "groupAd": "CN=Referent RH,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            },
+            {
+                "id": 52228,
+                "nom": "POSTE DE TRAVAIL",
+                "groupAd": "CN=Utilisateurs CDS Poste de travail,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "depart-collaborateur",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 208,
+        "nom": "Smartphone et forfaits",
+        "description": "Demande smartphone et forfaits entreprise",
+        "helpContent": "Demande smartphone et forfaits entreprise",
+        "logo": "smartphones.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": null,
+        "route": "smartphone",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": {
+            "id": 18241,
+            "addDate": null,
+            "name": "Smartphone",
+            "description": "Service achats puis directeur achats",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Directeur Achats",
+                            "approversUsers": [
+                                {
+                                    "id": "phhourmant",
+                                    "username": "Pierre-herve HOURMANT",
+                                    "delegationUserid": "lthomas",
+                                    "delegationUsername": "THOMAS Laurent",
+                                    "delegationBegin": "2026-07-13T00:00:00.000+00:00",
+                                    "delegationEnd": "2026-07-31T00:00:00.000+00:00"
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 100,
+                    "priority": 1
+                },
+                {
+                    "id": {
+                        "role": {
+                            "id": "Service Achats",
+                            "approversUsers": [
+                                {
+                                    "id": "afulbert",
+                                    "username": "Aurore FULBERT",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                },
+                                {
+                                    "id": "dmaurand",
+                                    "username": "Dimitri MAURAND",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 50,
+                    "priority": -1
+                }
+            ]
+        },
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 262,
+        "idGlpiGroupe": 1442,
+        "validationType": 2,
+        "savable": false
+    },
+    {
+        "id": 223,
+        "nom": "Voir les listes de diffusion",
+        "description": "Pour visualiser les membres d'une liste de diffusion.",
+        "helpContent": "Pour visualiser les membres d'une liste de diffusion.",
+        "logo": "google.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": false,
+        "route": "https://datastudio.google.com/u/0/reporting/08f91323-e181-4377-9198-c5308dac256d/page/AVyOC",
+        "type": "lien",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 224,
+        "nom": "Appartenance à une liste de diffusion",
+        "description": "Pour visualiser les listes de diffusion d'un utilisateur.",
+        "helpContent": "Pour visualiser les listes de diffusion d'un utilisateur.",
+        "logo": "google.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": false,
+        "route": "https://datastudio.google.com/u/0/reporting/08f91323-e181-4377-9198-c5308dac256d/page/p_t1wz6goxnc",
+        "type": "lien",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 2692,
+        "nom": "Descente Article",
+        "description": "programme Descente Article",
+        "helpContent": "Descente Article",
+        "logo": "dlc.jpg",
+        "domaine": [],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "descente-article",
+        "type": "applicatif",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 4545,
+        "nom": "Création Groupe Transverse Google",
+        "description": "Pour une équipe, un groupe de travail, etc.",
+        "helpContent": "Pour une équipe, un groupe de travail, etc.",
+        "logo": "google-groupe-ag.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "google-groupe-ag",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 358,
+        "idGlpiGroupe": 1442,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 4549,
+        "nom": "Création Groupes et Drive Projet",
+        "description": "Demande création d'un groupe projet",
+        "helpContent": "Demande création d'un groupe projet",
+        "logo": "google-groupe-ag.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "google-groupe-projet",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 358,
+        "idGlpiGroupe": 1442,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 9244,
+        "nom": "Modification switch",
+        "description": "Formulaire modification switch",
+        "helpContent": "Formulaire modification switch",
+        "logo": "port.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            },
+            {
+                "id": 17437,
+                "nom": "Maintenance",
+                "groupAd": "CN=Utilisateurs Maintenance,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "modification-switch",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RESEAU",
+            "idValideur": "chardel",
+            "usernameValideur": "HARDEL Christophe",
+            "idUserDelegation": null,
+            "usernameUserDelegation": null,
+            "debutDelegation": null,
+            "finDelegation": null
+        },
+        "validationProcess": {
+            "id": 18336,
+            "addDate": null,
+            "name": "Modification switch",
+            "description": "juste réseau",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Réseaux",
+                            "approversUsers": [
+                                {
+                                    "id": "chardel",
+                                    "username": "Christophe HARDEL",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 100,
+                    "priority": 0
+                }
+            ]
+        },
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 406,
+        "idGlpiGroupe": 1429,
+        "validationType": 2,
+        "savable": false
+    },
+    {
+        "id": 9245,
+        "nom": "Création VLAN",
+        "description": "Demande création d'un VLAN",
+        "helpContent": "Demande création d'un VLAN",
+        "logo": "vlan.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "creation-vlan",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RESEAU",
+            "idValideur": "chardel",
+            "usernameValideur": "HARDEL Christophe",
+            "idUserDelegation": null,
+            "usernameUserDelegation": null,
+            "debutDelegation": null,
+            "finDelegation": null
+        },
+        "validationProcess": {
+            "id": 18335,
+            "addDate": null,
+            "name": "Création vlan",
+            "description": "Création vlan (analystes puis christophe)",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Analystes d'exploitation",
+                            "approversUsers": [
+                                {
+                                    "id": "dcavaille",
+                                    "username": "Damian CAVAILLE",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                },
+                                {
+                                    "id": "yomahe",
+                                    "username": "Yoann MAHE",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                },
+                                {
+                                    "id": "uscocozza",
+                                    "username": "Ugo SCOCOZZA",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                },
+                                {
+                                    "id": "fthomas",
+                                    "username": "Franck THOMAS",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                },
+                                {
+                                    "id": "hgamois",
+                                    "username": "Hervé GAMOIS",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 20,
+                    "priority": 1
+                },
+                {
+                    "id": {
+                        "role": {
+                            "id": "Réseaux",
+                            "approversUsers": [
+                                {
+                                    "id": "chardel",
+                                    "username": "Christophe HARDEL",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 100,
+                    "priority": -1
+                }
+            ]
+        },
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 409,
+        "idGlpiGroupe": 1429,
+        "validationType": 2,
+        "savable": false
+    },
+    {
+        "id": 9873,
+        "nom": "Création compte bdd",
+        "description": "Demande création d'un compte bdd",
+        "helpContent": "Demande création compte bdd",
+        "logo": "database_account.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "compte-bdd",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RSSI",
+            "idValideur": "JCDAUVERGNE",
+            "usernameValideur": "DAUVERGNE Jean-Charles",
+            "idUserDelegation": "fjalet",
+            "usernameUserDelegation": "JALET Frédéric",
+            "debutDelegation": "2026-08-03T00:00:00.000+00:00",
+            "finDelegation": "2026-08-28T00:00:00.000+00:00"
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 266,
+        "idGlpiGroupe": 1422,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 9874,
+        "nom": "Création compte LGC",
+        "description": "Demande création d'un compte LGC",
+        "helpContent": "Demande création compte LGC",
+        "logo": "lgc.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "compte-lgc",
+        "type": "demande",
+        "valideur": {
+            "attribute": "RSSI",
+            "idValideur": "JCDAUVERGNE",
+            "usernameValideur": "DAUVERGNE Jean-Charles",
+            "idUserDelegation": "fjalet",
+            "usernameUserDelegation": "JALET Frédéric",
+            "debutDelegation": "2026-08-03T00:00:00.000+00:00",
+            "finDelegation": "2026-08-28T00:00:00.000+00:00"
+        },
+        "validationProcess": null,
+        "needValidation": true,
+        "validationLocation": "catalogue",
+        "idGlpiCategorie": 266,
+        "idGlpiGroupe": 1471,
+        "validationType": 1,
+        "savable": false
+    },
+    {
+        "id": 17604,
+        "nom": "Accès boite mail générique",
+        "description": "Accès boite mail générique",
+        "helpContent": "Accès boite mail générique",
+        "logo": "gmail.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": true,
+        "route": "boite-mail-partagee",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 358,
+        "idGlpiGroupe": 1442,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 19402,
+        "nom": "Ouverture flux réseaux",
+        "description": "Ouverture flux réseaux",
+        "helpContent": "ouverture-flux",
+        "logo": "flow.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "ouverture-flux",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": {
+            "id": 27522,
+            "addDate": null,
+            "name": "Ouverture flux interne",
+            "description": "Analystes d'exploit en validation Responsable réseau",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Analyste exploitation",
+                            "approversUsers": [
+                                {
+                                    "id": "hgamois",
+                                    "username": "Hervé GAMOIS",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 100,
+                    "priority": 1
+                },
+                {
+                    "id": {
+                        "role": {
+                            "id": "Responsable réseau",
+                            "approversUsers": [
+                                {
+                                    "id": "fjalet",
+                                    "username": "Frédéric JALET",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 100,
+                    "priority": -1
+                }
+            ]
+        },
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 405,
+        "idGlpiGroupe": 1429,
+        "validationType": 0,
+        "savable": true
+    },
+    {
+        "id": 24472,
+        "nom": "Absence longue durée",
+        "description": "Déclaration absence longue durée",
+        "helpContent": "Absence longue durée",
+        "logo": "absence.png",
+        "domaine": [
+            {
+                "id": 17436,
+                "nom": "RH",
+                "groupAd": "CN=Referent RH,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": false,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "absence-longue-duree",
+        "type": "applicatif",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 35,
+        "idGlpiGroupe": 1442,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 24473,
+        "nom": "Téléphonie fixe",
+        "description": "Téléphonie fixe (demande téléphone, ligne etc)",
+        "helpContent": "Téléphonie fixe",
+        "logo": "telephonie.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": null,
+        "route": "telephonie",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 55,
+        "idGlpiGroupe": 1430,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 24474,
+        "nom": "Liste blanche téléphonique",
+        "description": "Vérification ou demande ajout numéro sur liste blanche téléphonique",
+        "helpContent": "Liste blanche téléphonique",
+        "logo": "phone.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            },
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": true,
+        "multipleUser": null,
+        "route": "liste-blanche-telephone",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": {
+            "id": 34530,
+            "addDate": null,
+            "name": "Responsable POSTE DE TRAVAIL",
+            "description": "Responsable POSTE DE TRAVAIL",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Responsable poste de travail",
+                            "approversUsers": [
+                                {
+                                    "id": "rvullo",
+                                    "username": "Renaldo VULLO",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 100,
+                    "priority": 0
+                }
+            ]
+        },
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 2,
+        "savable": false
+    },
+    {
+        "id": 34523,
+        "nom": "Modification compte CFP",
+        "description": "Modification compte CFP",
+        "helpContent": "Modification compte CFP",
+        "logo": "profile.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "droits-cfp",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": {
+            "id": 52204,
+            "addDate": null,
+            "name": "Analystes",
+            "description": "Au moins 1 analyste",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Analystes d'exploitation",
+                            "approversUsers": [
+                                {
+                                    "id": "dcavaille",
+                                    "username": "Damian CAVAILLE",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                },
+                                {
+                                    "id": "yomahe",
+                                    "username": "Yoann MAHE",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                },
+                                {
+                                    "id": "uscocozza",
+                                    "username": "Ugo SCOCOZZA",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                },
+                                {
+                                    "id": "fthomas",
+                                    "username": "Franck THOMAS",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                },
+                                {
+                                    "id": "hgamois",
+                                    "username": "Hervé GAMOIS",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 20,
+                    "priority": 0
+                }
+            ]
+        },
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 349,
+        "idGlpiGroupe": 1440,
+        "validationType": 2,
+        "savable": false
+    },
+    {
+        "id": 34525,
+        "nom": "Demande création DFS INT",
+        "description": "Demande création interface DFS INT",
+        "helpContent": "Demande création DFS INT",
+        "logo": "folder.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "interface",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": {
+            "id": 34526,
+            "addDate": null,
+            "name": "Intégration",
+            "description": "Intégration",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Intégration",
+                            "approversUsers": [
+                                {
+                                    "id": "fthomas",
+                                    "username": "Franck THOMAS",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 50,
+                    "priority": 0
+                }
+            ]
+        },
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 320,
+        "idGlpiGroupe": 1471,
+        "validationType": 2,
+        "savable": true
+    },
+    {
+        "id": 34529,
+        "nom": "Demande interface ESB",
+        "description": "Demande interface ESB",
+        "helpContent": "Demande interface ESB",
+        "logo": "change.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "interface-esb",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": {
+            "id": 34526,
+            "addDate": null,
+            "name": "Intégration",
+            "description": "Intégration",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Intégration",
+                            "approversUsers": [
+                                {
+                                    "id": "fthomas",
+                                    "username": "Franck THOMAS",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 50,
+                    "priority": 0
+                }
+            ]
+        },
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 61,
+        "idGlpiGroupe": 1471,
+        "validationType": 2,
+        "savable": true
+    },
+    {
+        "id": 47157,
+        "nom": "Création VM",
+        "description": "Création VM",
+        "helpContent": "Création VM",
+        "logo": "vm.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "creation-vm",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": {
+            "id": 47158,
+            "addDate": null,
+            "name": "Création VM",
+            "description": "Création VM",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Responsable système",
+                            "approversUsers": [
+                                {
+                                    "id": "fjalet",
+                                    "username": "Frédéric JALET",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 100,
+                    "priority": 0
+                }
+            ]
+        },
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 322,
+        "idGlpiGroupe": 1440,
+        "validationType": 2,
+        "savable": true
+    },
+    {
+        "id": 47528,
+        "nom": "Taux de service",
+        "description": "Taux de service",
+        "helpContent": "Taux de service",
+        "logo": "taux-service.png",
+        "domaine": [
+            {
+                "id": 47531,
+                "nom": "SUPPLY",
+                "groupAd": "CN=Utilisateurs CDS Supply,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            },
+            {
+                "id": 47511,
+                "nom": "PLANIFICATION",
+                "groupAd": "CN=Utilisateurs CDS Planification,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "taux-service",
+        "type": "applicatif",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 51234,
+        "nom": "Calcul attributs ATTIS",
+        "description": "Calcul attributs ATTIS",
+        "helpContent": "Calcul attributs ATTIS (PRI)",
+        "logo": "calcul.png",
+        "domaine": [
+            {
+                "id": 54519,
+                "nom": "CDGC",
+                "groupAd": "CN=Utilisateurs CDS CDGC,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "calculs-attis",
+        "type": "applicatif",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 54965,
+        "nom": "Décommissionnement VM",
+        "description": "Décommissionnement VM",
+        "helpContent": "Décommissionnement VM",
+        "logo": "removed.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "decommissionnement-vm",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": 320,
+        "idGlpiGroupe": 1471,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 55144,
+        "nom": "Logiciels sans compte AD",
+        "description": "Accès logiciels sans compte AD",
+        "helpContent": "Logiciels sans compte AD",
+        "logo": "software.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "logiciels-atelier",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 59377,
+        "nom": "Code OTP SYSTANCIA GATE accès VPN FRS",
+        "description": "Obtenir un code OTP SYSTANCIA GATE accès VPN pour fournisseur",
+        "helpContent": "Obtenir un code OTP SYSTANCIA GATE accès VPN pour un fournisseur",
+        "logo": "otp.png",
+        "domaine": [
+            {
+                "id": 2,
+                "nom": "DTSI",
+                "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            },
+            {
+                "id": 17437,
+                "nom": "Maintenance",
+                "groupAd": "CN=Utilisateurs Maintenance,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            },
+            {
+                "id": 3,
+                "nom": "PROD",
+                "groupAd": "CN=Utilisateurs Industriel,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            },
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "ipdiva-otp",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 65125,
+        "nom": "Paramétrage REF fournisseur",
+        "description": "Paramétrage REF fournisseur",
+        "helpContent": "Paramétrage REF fournisseur",
+        "logo": "atelier.png",
+        "domaine": [
+            {
+                "id": 4,
+                "nom": "REFERENTIELS",
+                "groupAd": "CN=Utilisateurs REFERENTIEL,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "referencement-fournisseur-edit",
+        "type": "applicatif",
+        "valideur": null,
+        "validationProcess": null,
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    },
+    {
+        "id": 65126,
+        "nom": "Pré demande référencement frs",
+        "description": "Pré demande de référencement d'un fournisseur",
+        "helpContent": "Pré demande de référencement d'un fournisseur",
+        "logo": "atelier.png",
+        "domaine": [
+            {
+                "id": 1,
+                "nom": "COMMUN",
+                "groupAd": ""
+            }
+        ],
+        "enabled": true,
+        "otherUser": false,
+        "multipleUser": null,
+        "route": "referencement-fournisseur",
+        "type": "demande",
+        "valideur": null,
+        "validationProcess": {
+            "id": 65127,
+            "addDate": null,
+            "name": "process demande fournisseur",
+            "description": "process demande fournisseur",
+            "roles": [
+                {
+                    "id": {
+                        "role": {
+                            "id": "Approbateur nouveau fournisseur",
+                            "approversUsers": [
+                                {
+                                    "id": "jpamart",
+                                    "username": "Jean PAMART",
+                                    "delegationUserid": null,
+                                    "delegationUsername": null,
+                                    "delegationBegin": null,
+                                    "delegationEnd": null
+                                }
+                            ]
+                        }
+                    },
+                    "minValidationRequired": 10,
+                    "priority": 0
+                }
+            ]
+        },
+        "needValidation": false,
+        "validationLocation": "none",
+        "idGlpiCategorie": -1,
+        "idGlpiGroupe": -1,
+        "validationType": 0,
+        "savable": false
+    }
+]

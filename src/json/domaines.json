@@ -1,0 +1,57 @@
+[
+    {
+        "id": 18237,
+        "nom": "BETA",
+        "groupAd": "CN=Utilisateurs BETA,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    },
+    {
+        "id": 54519,
+        "nom": "CDGC",
+        "groupAd": "CN=Utilisateurs CDS CDGC,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    },
+    {
+        "id": 1,
+        "nom": "COMMUN",
+        "groupAd": ""
+    },
+    {
+        "id": 2,
+        "nom": "DTSI",
+        "groupAd": "CN=Utilisateurs DTSI,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    },
+    {
+        "id": 17437,
+        "nom": "Maintenance",
+        "groupAd": "CN=Utilisateurs Maintenance,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    },
+    {
+        "id": 47511,
+        "nom": "PLANIFICATION",
+        "groupAd": "CN=Utilisateurs CDS Planification,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    },
+    {
+        "id": 52228,
+        "nom": "POSTE DE TRAVAIL",
+        "groupAd": "CN=Utilisateurs CDS Poste de travail,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    },
+    {
+        "id": 3,
+        "nom": "PROD",
+        "groupAd": "CN=Utilisateurs Industriel,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    },
+    {
+        "id": 4,
+        "nom": "REFERENTIELS",
+        "groupAd": "CN=Utilisateurs REFERENTIEL,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    },
+    {
+        "id": 17436,
+        "nom": "RH",
+        "groupAd": "CN=Referent RH,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    },
+    {
+        "id": 47531,
+        "nom": "SUPPLY",
+        "groupAd": "CN=Utilisateurs CDS Supply,OU=CatalogueDeService,OU=Applications,DC=kermene,DC=fr"
+    }
+]
