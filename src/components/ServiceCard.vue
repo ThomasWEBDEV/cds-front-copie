@@ -1,8 +1,18 @@
 <template>
-  <v-card flat class="rounded-xl pa-3 fill-height d-flex flex-column justify-space-between">
+  <v-card flat class="rounded-xl pa-3 fill-height d-flex flex-column justify-space-between position-relative">
+    <v-btn
+      icon
+      x-small
+      class="favorite-btn"
+      @click.stop="onFavoriteClick"
+    >
+      <v-icon :color="isFavorite ? 'amber' : 'grey lighten-1'" size="18">
+        {{ isFavorite ? 'mdi-star' : 'mdi-star-outline' }}
+      </v-icon>
+    </v-btn>
     <div>
       <!-- En-tête compact : Icône et Titre sur la MÊME ligne -->
-      <div class="d-flex align-center mb-2">
+      <div class="d-flex align-center mb-2 pr-6">
         <v-avatar color="#E3F2FD" size="32" class="mr-2 flex-shrink-0">
           <v-icon color="#005B9A" size="18">{{ getIcon(service.logo) }}</v-icon>
         </v-avatar>
@@ -34,9 +44,16 @@ export default {
     service: {
       type: Object,
       required: true
+    },
+    isFavorite: {
+      type: Boolean,
+      default: false
     }
   },
   methods: {
+    onFavoriteClick() {
+      this.$emit('toggle-favorite', this.service.id)
+    },
     getIcon(logo) {
       return getServiceIcon(logo)
     },
@@ -101,5 +118,16 @@ export default {
   color: #db2777;
   border-color: #fbcfe8;
   background-color: #fce7f3;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.favorite-btn {
+  position: absolute !important;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
 }
 </style>

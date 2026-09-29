@@ -99,9 +99,15 @@
                 </p>
               </div>
 
-              <v-form>
+              <v-form @submit.prevent="handleLogin">
+                <!-- Message d'erreur en cas de mauvais identifiants -->
+                <v-alert v-if="errorMessage" type="error" dense dismissible class="mb-3 text-caption">
+                  {{ errorMessage }}
+                </v-alert>
+
                 <v-text-field
-                  label=" Identifiants Windows"
+                  v-model="username"
+                  label="Identifiants Windows"
                   outlined
                   dense
                   prepend-inner-icon="mdi-email-outline"
@@ -109,6 +115,7 @@
                 ></v-text-field>
 
                 <v-text-field
+                  v-model="password"
                   label="Mot de passe"
                   type="password"
                   outlined
@@ -119,7 +126,7 @@
                 ></v-text-field>
 
                 <!-- Lien Mot de passe oublié -->
-                <div class="text-center mb-6">
+                <div class="text-center mb-4">
                   <a 
                     href="#" 
                     class="text-body-2 font-weight-bold text-decoration-none" 
@@ -128,6 +135,19 @@
                     Mot de passe oublié ?
                   </a>
                 </div>
+
+                <!-- BOUTON DE CONNEXION OBLIGATOIRE -->
+                <v-btn
+                  type="submit"
+                  block
+                  color="#005B9A"
+                  dark
+                  height="44"
+                  class="mb-4 rounded-lg text-none font-weight-bold"
+                  style="font-family: 'Montserrat', sans-serif;"
+                >
+                  Se connecter
+                </v-btn>
 
                 <v-divider class="mb-4" style="border-color: #E0E0E0;"></v-divider>
 
@@ -224,8 +244,36 @@
 </template>
 
 <script>
+import { authService } from '@/services/auth'
+
 export default {
-  name: 'LoginView'
+  name: 'LoginView',
+  data() {
+    return {
+      username: '',
+      password: '',
+      errorMessage: ''
+    }
+  },
+  methods: {
+    handleLogin() {
+      this.errorMessage = ''
+      
+      if (!this.username || !this.password) {
+        this.errorMessage = 'Veuillez remplir tous les champs'
+        return
+      }
+
+      const user = authService.login(this.username, this.password)
+
+      if (user) {
+        // Redirection explicite vers Home après succès !
+        this.$router.push('/home')
+      } else {
+        this.errorMessage = 'Identifiant ou mot de passe incorrect'
+      }
+    }
+  }
 }
 </script>
 
